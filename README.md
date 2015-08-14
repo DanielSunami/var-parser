@@ -1,11 +1,13 @@
 # var-parser
 Simple in string variable replacement.
- - Case-insensitive.
- - Point delimiter, eg, .var.
+ * Case-insensitive.
+ * Point delimiter, eg, .var.
 
-Usage:
+### Usage:
 
+```sh
 > var vp = require('var-parser');
-> vp('a .a. c',{a:'b'});
+> vp('a .point. .INSENSITIVE.',{point:'b',insensitive: 'c'});
 < 'a b c'
+```
 
