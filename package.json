@@ -1,0 +1,22 @@
+{
+  "name":"var-parser",
+  "version": "1.0.0",
+  "description": "Simple in string variable replacement.",
+  "keywords": [
+    "var",
+    "replacement",
+    "variable"
+  ],
+  "author": {
+    "name": "Daniel Sunami",
+    "email": "danielsunami@akafrx.com",
+    "url": "http://akafrx.com"
+  },
+  "homepage": "https://github.com/DanielSunami/var-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielSunami/var-parser.git"
+  },
+  "main": "./var-parser.js",
+  "license":"MIT"
+}
